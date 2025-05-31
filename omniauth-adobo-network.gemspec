@@ -1,6 +1,8 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
+require "omniauth-adobo-network/version"
+
 Gem::Specification.new do |gem|
   gem.add_dependency "omniauth-oauth2", "~> 1.8.0"
 
@@ -18,5 +20,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "omniauth-adobo-network"
   gem.require_paths = %w[lib]
-  gem.version       = "1.0.0"
+  gem.version       = OmniAuth::AdoboNetwork::VERSION
 end

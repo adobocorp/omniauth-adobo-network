@@ -2,7 +2,7 @@ require 'omniauth-oauth2'
 
 module OmniAuth
   module Strategies
-    class AdoboProfile < OmniAuth::Strategies::OAuth2
+    class AdoboNetwork < OmniAuth::Strategies::OAuth2
       # change the class name and the :name option to match your application name
       option :name, :adobo_network
 
