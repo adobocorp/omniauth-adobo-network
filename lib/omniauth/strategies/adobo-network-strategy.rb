@@ -7,7 +7,7 @@ module OmniAuth
       option :name, :adobo_network
 
       option :client_options, {
-        site: 'http://localhost:3000',
+        site: 'https://www.adobo-network.com',
         authorize_url: '/oauth/authorize'
       }
 
